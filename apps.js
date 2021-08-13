@@ -23,38 +23,38 @@ const tink = document.getElementById("tink")
 const tom = document.getElementById("tom")
 
 
-a.addEventListener("click", (e) => {
-    boom.play(e)
+a.addEventListener("click", () => {
+    a.play = "boom"
 })
 
-s.addEventListener("click", (e) => {
-    clap.play(e)
+s.addEventListener("click", () => {
+    s.play = "clap"
 })
 
-d.addEventListener("click", (e) => {
-    hihat.play(e)
+d.addEventListener("click", () => {
+    d.play = "hihat"
 })
 
-f.addEventListener("click", (e) => {
-    kick.play(e)
+f.addEventListener("click", () => {
+    f.play = "kick"
 })
 
-g.addEventListener("click", (e) => {
-    openhat.play(e)
+g.addEventListener("click", () => {
+    g.play = "openhat"
 })
 
-h.addEventListener("click", (e) => {
-    ride.play(e)
+h.addEventListener("click", () => {
+    h.play = "ride"
 })
 
 j.addEventListener("click", () => {
-    snare.play
+    j.play = "snare"
 })
 
 k.addEventListener("click", () => {
-    tink.play
+    k.play = "tink"
 })
 
 l.addEventListener("click", () => {
-    tom.play
+    l.play = "tom"
 })
