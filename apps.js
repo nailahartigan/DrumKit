@@ -1,3 +1,4 @@
+
 // Assigning letter variables 
 
 const a = document.getElementById("a")
@@ -12,49 +13,77 @@ const l = document.getElementById("l")
 
 // Assigning Sound variables
 
-const boom = document.getElementById("boom")
-const clap = document.getElementById("clap")
-const hihat = document.getElementById("hihat")
-const kick = document.getElementById("kick")
-const openhat = document.getElementById("openhat")
-const ride = document.getElementById("ride")
-const snare = document.getElementById("snare")
-const tink = document.getElementById("tink")
-const tom = document.getElementById("tom")
+const boom = new Audio("sounds/boom.wav")
+const clap = new Audio("sounds/clap.wav")
+const hihat = new Audio("sounds/hihat.wav")
+const kick = new Audio("sounds/kick.wav")
+const openhat = new Audio("sounds/openhat.wav")
+const ride = new Audio("sounds/ride.wav")
+const snare = new Audio("sounds/snare.wav")
+const tink = new Audio("sounds/tink.wav")
+const tom = new Audio("sounds/tom.wav")
 
+
+// Click events
 
 a.addEventListener("click", () => {
-    a.play = "boom"
+    boom.play()
 })
 
 s.addEventListener("click", () => {
-    s.play = "clap"
+    clap.play()
 })
 
 d.addEventListener("click", () => {
-    d.play = "hihat"
+    hihat.play()
 })
 
 f.addEventListener("click", () => {
-    f.play = "kick"
+    kick.play()
 })
 
 g.addEventListener("click", () => {
-    g.play = "openhat"
+    openhat.play()
 })
 
 h.addEventListener("click", () => {
-    h.play = "ride"
+    ride.play()
 })
 
 j.addEventListener("click", () => {
-    j.play = "snare"
+    snare.play()
 })
 
 k.addEventListener("click", () => {
-    k.play = "tink"
+    tink.play()
 })
 
 l.addEventListener("click", () => {
-    l.play = "tom"
+    tom.play()
 })
+
+// Press events
+
+window.addEventListener("keydown", (event) => {
+    if (event.key === "a") {
+        boom.play()
+    } else if (event.key === "s") {
+        clap.play()
+    } else if (event.key === "d") {
+        hihat.play()
+    } else if (event.key === "f") {
+        kick.play()
+    } else if (event.key === "g") {
+        openhat.play()
+    } else if (event.key === "h") {
+        ride.play()
+    } else if (event.key === "j") {
+        snare.play()
+    } else if (event.key === "k") {
+        tink.play()
+    } else if (event.key === "l") {
+        tom.play()
+    }
+})
+
+

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
+
 
 *{
     box-sizing: border-box;
@@ -6,19 +8,26 @@
 }
 
 body{
-    height: 100vh;   
+    height: 100vh;
+    background-color: black;
+
 }
 
 h1{
     display: flex;
     justify-content: center;
     margin-top: 40px;
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 60px;
+    font-weight: 200;
+    color: white;
 }
 
 .buttons{
     display: flex;
     justify-content: center;
     margin-top: 60px;
+    margin-bottom: 50px;
     justify-content: space-evenly;
     height: 60px;
 }
@@ -27,59 +36,98 @@ h1{
     font-size: 45px;
     width: 60px;
     border-radius: 110px;
-
+    background-color: black;
+    color: white;
+    border: solid white;
+    font-family: 'Jolly Lodger', cursive;;
 }
 
 #s{
     font-size: 45px;
     width: 60px;
-    
+    background-color: black;
+    color: white;
+    border: solid white;   
+    font-family: 'Jolly Lodger', cursive;;
 }
 
 #d{
     font-size: 45px;
     width: 60px;
     border-radius: 110px;
+    background-color: black;
+    color: white;
+    border: solid white;
+    font-family: 'Jolly Lodger', cursive;;
 }
 
 #f{
     font-size: 45px;
     width: 60px;
-    
+    background-color: black;
+    color: white;
+    border: solid white;  
+    font-family: 'Jolly Lodger', cursive;;
 }
 
 #g{
     font-size: 45px;
     width: 60px;
     border-radius: 110px;
+    background-color: black;
+    color: white;
+    border: solid white;
+    font-family: 'Jolly Lodger', cursive;;
 }
 
 #h{
     font-size: 45px;
     width: 60px;
-    
+    background-color: black;
+    color: white;
+    border: solid white; 
+    font-family: 'Jolly Lodger', cursive;;
 }
 
 #j{
     font-size: 45px;
     width: 60px;
     border-radius: 110px;
+    background-color: black;
+    color: white;
+    border: solid white;
+    font-family: 'Jolly Lodger', cursive;;
 }
 
 #k{
     font-size: 45px;
     width: 60px;
-
+    background-color: black;
+    color: white;
+    border: solid white;
+    font-family: 'Jolly Lodger', cursive;;
 }
 
 #l{
     font-size: 45px;
     width: 60px;
     border-radius: 110px;
+    background-color: black;
+    color: white;
+    border: solid white;
+    font-family: 'Jolly Lodger', cursive;;
 }
 
 div{
     display: flex;
     justify-content: center;
-    margin-top: 65px;
+    margin-top: 65px;   
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family:'Jolly Lodger', cursive;
+    font-size: 25px;
 }
